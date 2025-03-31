@@ -1,5 +1,6 @@
 [README.md](https://github.com/user-attachments/files/19535514/README.md)
-https://github.com/idl3o/gh-pages.
+https://idl3o.github.io/gh-pages
+
 # Sam's Dendron Knowledge Base
 
 ## Overview
