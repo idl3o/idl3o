@@ -1,7 +1,7 @@
 
 [PR:X](https://idl3o.github.io/gh-pages)
 
-[PSoCG](https://github.com/stars/idl3o/lists/web30)
+[DOCS](https://github.com/stars/idl3o/lists/web30)
 
 # Token-Based Creator Economy Streaming Service
 
