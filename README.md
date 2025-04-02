@@ -1,6 +1,8 @@
 
 [home](https://idl3o.github.io/gh-pages)
 
+https://github.com/stars/idl3o/lists/web30
+
 # Token-Based Creator Economy Streaming Service
 
 This application demonstrates a streaming service with token-based creator economy, featuring AI-powered content generation, token rewards for creators and consumers, advanced health monitoring with RMB/GBT exchange, and Excelsior premium features.
