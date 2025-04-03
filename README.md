@@ -1,7 +1,7 @@
 
 [PR:X](https://idl3o.github.io/gh-pages)
 
-[DOCS](https://github.com/stars/idl3o/lists/web30)
+[HUB](https://github.com/stars/idl3o/lists/web30)
 
 # [IDL3]
 [sjlavieth@gmail.com] | [x.com/modsias] |
