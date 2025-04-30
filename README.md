@@ -58,7 +58,7 @@ Tools: Hardhat, Truffle, MetaMask, GitHub Actions, Remix IDE
 
 ### 📫 How to reach me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)]([https://linkedin.com/in/idl3o](https://www.linkedin.com/in/s-lavi-a13669363/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/s-lavi-a13669363/)
 [![Email](https://img.shields.io/badge/Email-Contact-red)](mailto:sjlavieth@email.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-green)](https://github.com/idl3o)
 
