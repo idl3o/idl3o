@@ -43,7 +43,7 @@ Tools: Hardhat, Truffle, MetaMask, GitHub Actions, Remix IDE
 ### 📚 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [Optimizing Gas Usage in ERC-20 Token Implementations](https://github.com/idl3o/idl3o/blob/main/optimizing-gas-erc20.md)
+- [Optimizing Gas Usage in ERC-20 Token Implementations](https://github.com/idl3o/idl3o/blob/main/blog/optimizing-gas-erc20.md)
 - [Building Secure Payment Streaming Contracts](https://github.com/idl3o/idl3o/blob/main/blog/secure-payment-streaming-contracts.md)
 - [Smart Contract Design Patterns for Content Monetization](https://github.com/idl3o/idl3o/blob/main/blog/smart-contract-design-patterns-content-monetization.md)
 <!-- BLOG-POST-LIST:END -->
