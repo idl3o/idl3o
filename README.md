@@ -1,7 +1,7 @@
 # Hello, I'm idl3o 👋 
 
 [![GitHub followers](https://img.shields.io/github/followers/idl3o?style=social)](https://github.com/idl3o)
-[![Twitter: idl3o](https://img.shields.io/twitter/follow/idl3o?style=social)](https://twitter.com/idl3o)
+[![Twitter: idl3o](https://img.shields.io/twitter/follow/idl3o?style=social)](https://twitter.com/modsias)
 
 ## 💼 Web3 & Blockchain Developer
 
