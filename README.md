@@ -9,12 +9,12 @@ I'm a passionate blockchain developer specializing in Web3 technologies, decentr
 
 ### 🚀 Current Projects
 
-- **[Web3 Streaming Platform](https://idl3o.github.io/project-hub/)**: A decentralized content distribution system powered by blockchain technology that enables direct creator-to-audience relationships and fair compensation models.
+- **[Web3 Streaming Platform](https://idl3o.github.io/web3-core-functionality/)**: A decentralized content distribution system powered by blockchain technology that enables direct creator-to-audience relationships and fair compensation models.
   - Smart contract suite including access control, payment processing, and content verification
   - Integration with IPFS for decentralized content storage
   - ERC-20 implementation with custom streaming-specific utility functions
 
-- **Smart Contract Catalog**: A comprehensive documentation system for platform contracts with developer guides and automated testing.
+- **[Smart Contract Catalog](https://idl3o.github.io/project-hub/)**: A comprehensive documentation system for platform contracts with developer guides and automated testing.
   - 98% test coverage for all contracts
   - Gas-optimized implementations reducing transaction costs by 45%
   - Integration with multiple EVM-compatible chains
