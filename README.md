@@ -9,7 +9,7 @@ I'm a passionate blockchain developer specializing in Web3 technologies, decentr
 
 ### 🚀 Current Projects
 
-- **[Web3 Streaming Platform](https://idl3o.github.io/gh-pages)**: A decentralized content distribution system powered by blockchain technology that enables direct creator-to-audience relationships and fair compensation models.
+- **[Web3 Streaming Platform](https://idl3o.github.io/project-hub/)**: A decentralized content distribution system powered by blockchain technology that enables direct creator-to-audience relationships and fair compensation models.
   - Smart contract suite including access control, payment processing, and content verification
   - Integration with IPFS for decentralized content storage
   - ERC-20 implementation with custom streaming-specific utility functions
