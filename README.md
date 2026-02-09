@@ -14,6 +14,15 @@
 
   ---
 
+  ## 🚀 Active Projects                                                                                                                                                                                                                                                                                                                       
+  
+  
+  ### [omnium](https://github.com/idl3o/omnium) `TypeScript` `Solidity`                                                                                                                                                                                                                                                                       
+  Meta-currency framework implementing dimensional money — currency as a multi-dimensional vector **Ω = (m, T, L, P, R)** instead of a scalar value. Embeds time-decay, locality, purpose channels, and provenance directly into the unit of exchange. Built on Helia/IPFS with a CLI and live                                                
+  [whitepaper](https://idl3o.github.io/omnium/whitepaper/). *What if money could remember what it's for?*
+
+  ### [tasern-4](https://github.com/idl3o/tasern-4) `TypeScript`
+  Full Web3 D&D experience set in James Mcgee's Tales of Tasern universe. RPG-lit gameplay with on-chain mechanics, token-gated encounters, and decentralized world state — tabletop meets blockchain.
   ## 📌 Pinned Projects
 
   ### [helia-blockchain-token](https://github.com/idl3o/helia-blockchain-token) `JavaScript`
@@ -30,9 +39,6 @@
 
   ### [tasern-3](https://github.com/idl3o/tasern-3) `TypeScript`
   Interactive world-building — part of the evolving Tasern series exploring narrative through code.
-
-  ### [tasern-4](https://github.com/idl3o/tasern-4) `TypeScript`
-  RPG-lit experience. The latest iteration of the Tasern universe — narrative-driven gameplay built in TypeScript.
 
   ---
 
@@ -80,4 +86,5 @@
   ---
 
   [![GitHub followers](https://img.shields.io/github/followers/idl3o?label=Follow&style=social)](https://github.com/idl3o)
+
 
