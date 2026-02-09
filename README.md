@@ -41,7 +41,6 @@
   - **[web3-crypto-streaming-service](https://github.com/idl3o/web3-crypto-streaming-service)** — Decentralized streaming platform with smart contracts, IPFS integration, and custom ERC-20 tokens (Vue)
   - **[crypto-mastery-site](https://github.com/idl3o/crypto-mastery-site)** — Crypto education platform
   - **[coin-analysis](https://github.com/idl3o/coin-analysis)** — Cryptocurrency analysis tools (Python)
-  - **[ToTtcg](https://github.com/idl3o/ToTtcg)** — Open source NFT trading card game from the ToT universe
   - **[physics](https://github.com/idl3o/physics)** — Reality protocol (Python)
   - **[world-model](https://github.com/idl3o/world-model)** — Knowledge systems (Python)
   - **[planetary-wisdom-time-capsule](https://github.com/idl3o/planetary-wisdom-time-capsule)** — Preserving what matters
@@ -74,12 +73,6 @@
 
   ---
 
-  ## 📊 Stats
-
-  ![idl3o's GitHub stats](https://github-readme-stats.vercel.app/api?username=idl3o&show_icons=true&theme=tokyonight&hide_border=true)
-
-  ---
-
   ## The Thread
 
   Everything connects: consciousness exploration informs game design, crypto enables new models of value exchange, AI collaboration accelerates creative output, and it all feeds back into understanding reality itself.
@@ -87,3 +80,4 @@
   ---
 
   [![GitHub followers](https://img.shields.io/github/followers/idl3o?label=Follow&style=social)](https://github.com/idl3o)
+
