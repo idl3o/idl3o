@@ -22,7 +22,7 @@
   [whitepaper](https://idl3o.github.io/omnium/whitepaper/). *What if money could remember what it's for?*
 
   ### [tasern-4](https://github.com/idl3o/tasern-4) `TypeScript`
-  Full Web3 D&D experience set in James Mcgee's Tales of Tasern universe. RPG-lit gameplay with on-chain mechanics, token-gated encounters, and decentralized world state — tabletop meets blockchain.
+  Full Web3 D&D experience set in James Magee's Tales of Tasern universe. RPG-lit gameplay with on-chain mechanics, token-gated encounters, and decentralized world state — tabletop meets blockchain.
   ## 📌 Pinned Projects
 
   ### [helia-blockchain-token](https://github.com/idl3o/helia-blockchain-token) `JavaScript`
@@ -86,5 +86,6 @@
   ---
 
   [![GitHub followers](https://img.shields.io/github/followers/idl3o?label=Follow&style=social)](https://github.com/idl3o)
+
 
 
