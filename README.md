@@ -1,93 +1,89 @@
-  # Hey, I'm idl3o 👋
+# Hey, I'm idl3o 👋
 
-  **Builder at the intersection of consciousness, code, and cosmos.**
+**Builder at the intersection of consciousness, code, and cosmos.**
 
-  > *"What emerges when studying the self through collaboration with another"*
+> *"What emerges when studying the self through collaboration with another"*
 
-  ---
+---
 
-  ## About
+## About
 
-  Full-stack developer specializing in blockchain systems, AI-driven experiences, and distributed applications. I design token economies, build interactive worlds, and explore human-AI collaboration as a creative practice. Background in machine learning, NLP, smart contract development, and cloud infrastructure.
+Full-stack developer exploring the frontiers of money, meaning, and machine intelligence. I design token economies, build interactive worlds, theorize beyond 4D spacetime, and treat human-AI collaboration as a creative practice in its own right.
 
-  **📍 UTC-12** · **[@modsias](https://x.com/modsias)** · **sjlavieth@gmail.com**
+**📍 UTC-12** · **[@modsias](https://x.com/modsias)** · **sjlavieth@gmail.com**
 
-  ---
+---
 
-  ## 🚀 Active Projects                                                                                                                                                                                                                                                                                                                       
-  
-  
-  ### [omnium](https://github.com/idl3o/omnium) `TypeScript` `Solidity`                                                                                                                                                                                                                                                                       
-  Meta-currency framework implementing dimensional money — currency as a multi-dimensional vector **Ω = (m, T, L, P, R)** instead of a scalar value. Embeds time-decay, locality, purpose channels, and provenance directly into the unit of exchange. Built on Helia/IPFS with a CLI and live                                                
-  [whitepaper](https://idl3o.github.io/omnium/whitepaper/). *What if money could remember what it's for?*
+## 💰 Rethinking Money
 
-  ### [tasern-4](https://github.com/idl3o/tasern-4) `TypeScript`
-  Full Web3 D&D experience set in James Magee's Tales of Tasern universe. RPG-lit gameplay with D20 roll mechanics, persistent storytelling, and decentralized world state — tabletop meets blockchain.
-  ## 📌 Pinned Projects
+A body of work asking: *what if currency were a vector, not a scalar?*
 
-  ### [helia-blockchain-token](https://github.com/idl3o/helia-blockchain-token) `JavaScript`
-  Blockchain token implementation with configurable economics — emission decay models, token-gated access, and rate limiting via token bucket algorithms. Designed for decentralized content distribution.
+| Project | Description | Stack |
+|---------|-------------|-------|
+| [**vectorised-money**](https://github.com/idl3o/vectorised-money) | N-dimensional currency framework — the thesis statement. [Live site](https://idl3o.github.io/vectorised-money/) · [Deep dive](https://notebooklm.google.com/notebook/143b196b-aa17-41ae-b26a-70b9d48e3f91) | TypeScript |
+| [**omnium**](https://github.com/idl3o/omnium) | First conception/iteration of vectorised money — **Ω = (m, T, L, P, R)**. Currency with time-decay, locality, purpose, and provenance. [Whitepaper](https://idl3o.github.io/omnium/) | TypeScript |
+| [**kar-coin**](https://github.com/idl3o/kar-coin) | Currency that scales with and through civilizational progress. [Live site](https://idl3o.github.io/kar-coin/) | JavaScript |
+| [**helia-blockchain-token**](https://github.com/idl3o/helia-blockchain-token) | Currency underpinned by 6 philosophical frameworks | JavaScript |
+| [**crypto-mastery-site**](https://github.com/idl3o/crypto-mastery-site) | Comprehensive curriculum for mastering crypto, blockchain, and DeFi. [Live site](https://idl3o.github.io/crypto-mastery-site/) | TypeScript |
 
-  ### [system-prompts-for-humanity](https://github.com/idl3o/system-prompts-for-humanity) `Shell`
-  A codebase that encourages human-AI collaboration for growth and evolution. Configuration frameworks that treat the human-AI relationship as a system worth tuning.
+---
 
-  ### [esoterica](https://github.com/idl3o/esoterica) `HTML`
-  What emerges when studying the self through collaboration with another. Wisdom technologies, fiction bridges, and practical awakening tools built through human-AI synthesis.
+## 🧠 Consciousness & AI
 
-  ### [kar-coin](https://github.com/idl3o/kar-coin) `JavaScript` `pre-deployment`
-  Token economy project applying mathematical models (Cobb-Douglas production functions, emission decay curves) to value exchange systems.
+| Project | Description | Stack |
+|---------|-------------|-------|
+| [**esoterica**](https://github.com/idl3o/esoterica) | What emerges when studying the self through collaboration with another. Wisdom technologies, fiction bridges, and practical awakening tools. [esoterica.vercel.app](https://esoterica.vercel.app) | HTML |
+| [**system-prompts-for-humanity**](https://github.com/idl3o/system-prompts-for-humanity) | A codebase that encourages human-AI collaboration for growth and evolution | Shell |
+| [**cli-workspace**](https://github.com/idl3o/cli-workspace) | Consciousness-first CLI | JavaScript |
+| [**ai-language-system-creation-tool**](https://github.com/idl3o/ai-language-system-creation-tool) | AI-powered tool for intelligent language processing — rule-based logic, NLP, and ML | TypeScript |
+| [**world-model**](https://github.com/idl3o/world-model) | A semantic pipeline for AI media perception. [Deep dive](https://notebooklm.google.com/notebook/31b830a3-0a15-4771-abb0-fd55b0908bc5) | Python |
+| [**planetary-wisdom-time-capsule**](https://github.com/idl3o/planetary-wisdom-time-capsule) | Seeking to preserve global wisdom in perpetuity | JavaScript |
 
-  ### [tasern-3](https://github.com/idl3o/tasern-3) `TypeScript`
-  Interactive world-building — part of the evolving Tasern series exploring narrative through code.
+---
 
-  ---
+## 🎮 Tales of Tasern
 
-  ## Other Work
+Games set in James Magee's homebrew D&D universe.
 
-  - **[web3-crypto-streaming-service](https://github.com/idl3o/web3-crypto-streaming-service)** — Decentralized streaming platform with smart contracts, IPFS integration, and custom ERC-20 tokens (Vue)
-  - **[crypto-mastery-site](https://github.com/idl3o/crypto-mastery-site)** — Crypto education platform
-  - **[coin-analysis](https://github.com/idl3o/coin-analysis)** — Cryptocurrency analysis tools (Python)
-  - **[physics](https://github.com/idl3o/physics)** — Reality protocol (Python)
-  - **[world-model](https://github.com/idl3o/world-model)** — Knowledge systems (Python)
-  - **[planetary-wisdom-time-capsule](https://github.com/idl3o/planetary-wisdom-time-capsule)** — Preserving what matters
+| Project | Description | Stack |
+|---------|-------------|-------|
+| [**tasern-4**](https://github.com/idl3o/tasern-4) | Text-based RPG — D20 mechanics, persistent storytelling. [Play](https://tasern-4.vercel.app) | TypeScript |
+| [**tasern-3**](https://github.com/idl3o/tasern-3) | NFT card battle game. [Play](https://tasern-3.vercel.app) | TypeScript |
+| [**ToTtcg**](https://github.com/idl3o/ToTtcg) | Open source NFT trading card game from the ToT universe | JavaScript |
 
-  ---
+---
 
-  ## Technical Skills
+## 🔬 Other Explorations
 
-  **Languages:** TypeScript, JavaScript, Python, Solidity, Java, HTML5, Shell
-  **Blockchain:** Ethereum, Polygon, ERC-20, Hardhat, Truffle, Web3.js, IPFS
-  **Frontend:** Vue.js, React
-  **Backend:** Node.js, Cloud Run, GCP
-  **AI/ML:** GPT integration, NLP, personality modeling, memory-optimized response systems
-  **Practices:** Smart contract testing (98% coverage), gas optimization, DAO governance, token economy design
+| Project | Description | Stack |
+|---------|-------------|-------|
+| [**physics**](https://github.com/idl3o/physics) | Hypothesizing the dimensions beyond 4D spacetime. [Docs](https://idl3o.github.io/physics/docs/index.html) | Python |
+| [**live-video-player**](https://github.com/idl3o/live-video-player) | Fully open-source, self-hosted streaming platform | PowerShell |
+| [**cv-june-25**](https://github.com/idl3o/cv-june-25) | Curriculum Vitae. [View](https://idl3o.github.io/cv-june-25) | HTML |
 
-  ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-  ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-  ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-  ![Solidity](https://img.shields.io/badge/-Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
-  ![Vue](https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
-  ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-  ![Ethereum](https://img.shields.io/badge/-Ethereum-3C3C3D?style=flat-square&logo=ethereum&logoColor=white)
-  ![GCP](https://img.shields.io/badge/-GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
+---
 
-  ---
+## Technical Skills
 
-  ## Research Interests
+**Languages:** TypeScript, JavaScript, Python, Solidity, HTML5, Shell
+**Blockchain:** Ethereum, Helia/IPFS, ERC-20, token economy design
+**Frontend:** Vue.js, React
+**Backend:** Node.js, GCP
+**AI/ML:** NLP, semantic pipelines, language system design
 
-  DeFi mechanisms · NFT utility beyond collectibles · DAO governance models · Layer 2 scaling · Zero-knowledge proofs · Human-AI creative collaboration · Consciousness technologies
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Solidity](https://img.shields.io/badge/-Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Ethereum](https://img.shields.io/badge/-Ethereum-3C3C3D?style=flat-square&logo=ethereum&logoColor=white)
 
-  ---
+---
 
-  ## The Thread
+## The Thread
 
-  Everything connects: consciousness exploration informs game design, crypto enables new models of value exchange, AI collaboration accelerates creative output, and it all feeds back into understanding reality itself.
+Everything connects: consciousness exploration informs game design, vectorised money reimagines value exchange, AI collaboration accelerates creative output, physics hypotheses stretch the frame — and it all feeds back into understanding reality itself.
 
-  ---
+---
 
-  [![GitHub followers](https://img.shields.io/github/followers/idl3o?label=Follow&style=social)](https://github.com/idl3o)
-
-
-
-
-
+[![GitHub followers](https://img.shields.io/github/followers/idl3o?label=Follow&style=social)](https://github.com/idl3o)
