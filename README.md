@@ -1,4 +1,4 @@
-# Hey, I'm idl3o 👋
+# Hey, I'm mote 👋
 
 **Builder at the intersection of consciousness, code, and cosmos.**
 
