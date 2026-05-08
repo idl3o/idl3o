@@ -1,4 +1,4 @@
-# Hey, I'm ano 👋
+# Hey, I'm idl3 👋
 
 **Builder at the intersection of consciousness, code, and cosmos.**
 
