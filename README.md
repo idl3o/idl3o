@@ -1,4 +1,4 @@
-# Hey, I'm mote 👋
+# Hey, I'm ano 👋
 
 **Builder at the intersection of consciousness, code, and cosmos.**
 
