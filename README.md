@@ -33,7 +33,7 @@ So the currencies here are vectors, not scalars. The proofs are gated on *cohere
 - [`planetary-wisdom-time-capsule`](https://github.com/idl3o/planetary-wisdom-time-capsule) — preserving global wisdom in perpetuity
 
 **🎲 Tales of Tasern** — worlds you can both play and own
-- [`tasern-4`](https://github.com/idl3o/tasern-4) · [`tasern-3`](https://github.com/idl3o/tasern-3) · [`ToTtcg`](https://github.com/idl3o/ToTtcg) — text RPGs and NFT card battles in a D&D homebrew universe
+- [`tasern-4`](https://github.com/idl3o/tasern-4) · [`tasern-3`](https://github.com/idl3o/tasern-3) — text RPGs and NFT card battles in a D&D homebrew universe
 
 **🌌 Physics** — hypothesizing the dimensions beyond 4D spacetime
 - [`physics`](https://github.com/idl3o/physics) · [`omnium`](https://github.com/idl3o/omnium) — geometry as a place to put the rest of the theory
