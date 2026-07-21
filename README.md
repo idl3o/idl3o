@@ -1,4 +1,4 @@
-<h1 align="center">ano</h1>
+<h1 align="center">mods/h1>
 
 <p align="center">
   <em>🦁 idling</em> · os web dev · UTC-12 · <a href="https://x.com/modsias">@modsias</a>
