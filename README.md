@@ -1,8 +1,3 @@
-<p align="center">
-  <sub>⟶ <a href="https://github.com/idl3o/idl3o/blob/main/assets/portal.stl">step through the portal</a> — rotate the stone</sub>
-</p>
-
-
 <h1 align="center">S. Lavi · <code>idl3o</code></h1>
 
 <p align="center">
@@ -12,6 +7,11 @@
 <p align="center">
   <code>value is not a quantity you measure but an agreement that holds</code>
 </p>
+
+<p align="center">
+  <sub>⟶ <a href="https://github.com/idl3o/idl3o/blob/main/assets/portal.stl">step through the portal</a> — rotate the stone</sub>
+</p>
+
 
 <p align="center">
   <img src="assets/frontispiece.svg" alt="the Norns' loom — sheaf-gluing engine" width="760">
