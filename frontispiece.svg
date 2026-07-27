@@ -1,0 +1,247 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="960" height="600" role="img" aria-label="Frontispiece — Freedom is Emergent: the Norns' loom weaving the cloth of wyrd while a sealed ring closes and a single gold thread escapes, unbound, into the sky.">
+  <defs>
+    <radialGradient id="void" cx="0.5" cy="0.4" r="0.8">
+      <stop offset="0" stop-color="#161033"/>
+      <stop offset="0.6" stop-color="#0b0820"/>
+      <stop offset="1" stop-color="#05040f"/>
+    </radialGradient>
+    <linearGradient id="warp" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fdcff" stop-opacity="0.15"/>
+      <stop offset="0.5" stop-color="#bfeeff" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#8fdcff" stop-opacity="0.15"/>
+    </linearGradient>
+    <radialGradient id="norn" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff2c4"/>
+      <stop offset="0.5" stop-color="#e6c15a"/>
+      <stop offset="1" stop-color="#e6c15a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="clothg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a2150"/>
+      <stop offset="1" stop-color="#140f2e"/>
+    </linearGradient>
+    <linearGradient id="aur" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6fe3c1"/>
+      <stop offset="1" stop-color="#8b7cff"/>
+    </linearGradient>
+    <radialGradient id="freeglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffdf9e" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#e6c15a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.5" r="0.62">
+      <stop offset="0.62" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.6"/>
+    </radialGradient>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="haze" x="-40%" y="-120%" width="180%" height="340%"><feGaussianBlur stdDeviation="10"/></filter>
+    <pattern id="gkey" width="42" height="18" patternUnits="userSpaceOnUse">
+      <path d="M0 3 H42 M6 3 V15 H24 V8 H12 V12" fill="none" stroke="#d9b04a" stroke-opacity="0.5" stroke-width="1.4"/>
+    </pattern>
+    <pattern id="runecloth" width="60" height="34" patternUnits="userSpaceOnUse">
+      <g fill="none" stroke="#7fb0d8" stroke-opacity="0.6" stroke-width="1.6">
+        <path d="M10 6 V28 M10 6 L20 12 M10 17 L20 11"/>
+        <path d="M34 6 V28 M34 6 L44 6 M34 17 L44 17 M34 28 L44 28"/>
+      </g>
+    </pattern>
+    <style><![CDATA[
+      .tw    { animation: tw 3.4s ease-in-out infinite; }
+      .whorl { animation: spin linear infinite; transform-box: view-box; }
+      .rev   { animation: rev  linear infinite; transform-box: view-box; }
+      .shut  { animation: shut 3.2s ease-in-out infinite; }
+      .weft  { animation: weft 3.2s ease-in-out infinite; }
+      .scroll{ animation: scroll 6s linear infinite; }
+      .thrum { animation: thrum 2.6s ease-in-out infinite; }
+      .drift { animation: drift 18s ease-in-out infinite; }
+      .rm-static { display: none; }
+      @keyframes spin  { to { transform: rotate(360deg) } }
+      @keyframes rev   { to { transform: rotate(-360deg) } }
+      @keyframes tw    { 0%,100% { opacity:.2 } 50% { opacity:1 } }
+      @keyframes shut  { 0%,100% { transform: translateX(-160px) } 50% { transform: translateX(160px) } }
+      @keyframes weft  { 0%,50%,100% { opacity:.9 } 25%,75% { opacity:.35 } }
+      @keyframes scroll{ to { transform: translateY(34px) } }
+      @keyframes thrum { 0%,100% { opacity:.5 } 50% { opacity:1 } }
+      @keyframes drift { 0%,100% { transform: translateX(-16px) } 50% { transform: translateX(16px) } }
+      @media (prefers-reduced-motion: reduce) {
+        .tw,.whorl,.rev,.shut,.weft,.scroll,.thrum,.drift { animation: none }
+        .free,.rm-anim { display: none }
+        .rm-static { display: inline }
+      }
+    ]]></style>
+  </defs>
+
+  <rect width="960" height="600" fill="#05040f"/>
+  <rect x="16" y="16" width="928" height="568" rx="10" fill="url(#void)"/>
+
+  <!-- aurora -->
+  <g class="drift" opacity="0.22" fill="none" stroke="url(#aur)" filter="url(#haze)">
+    <path d="M40 74 Q 240 44 460 64 T 920 50" stroke-width="26"/>
+    <path d="M80 104 Q 300 84 520 96 T 930 82" stroke-width="12" opacity="0.7"/>
+  </g>
+
+  <!-- stars -->
+  <g fill="#dfe8ff">
+    <circle class="tw" cx="620" cy="120" r="1.2" style="animation-delay:.2s"/>
+    <circle class="tw" cx="700" cy="70"  r="1"   style="animation-delay:1.1s"/>
+    <circle class="tw" cx="760" cy="300" r="1.1" style="animation-delay:.5s"/>
+    <circle class="tw" cx="880" cy="150" r="1.2" style="animation-delay:2.2s"/>
+    <circle class="tw" cx="840" cy="380" r="1"   style="animation-delay:1.4s"/>
+    <circle class="tw" cx="580" cy="240" r="1"   style="animation-delay:2.6s"/>
+    <circle class="tw" cx="70"  cy="240" r="1.1" style="animation-delay:.9s"/>
+    <circle class="tw" cx="905" cy="250" r="1"   style="animation-delay:3s"/>
+    <circle class="tw" cx="660" cy="420" r="1.1" style="animation-delay:1.8s"/>
+  </g>
+
+  <!-- three spindle-stars: Urðr, Verðandi, Skuld -->
+  <g>
+    <g transform="translate(220,88)">
+      <circle r="24" fill="url(#norn)" filter="url(#soft)"/>
+      <g class="whorl" style="animation-duration:12s">
+        <g fill="none" stroke="#fff2c4" stroke-width="2">
+          <path d="M0 -14 L0 14 M-14 0 L14 0 M-10 -10 L10 10 M-10 10 L10 -10"/>
+        </g>
+        <circle r="5.5" fill="#fff2c4"/>
+      </g>
+    </g>
+    <g transform="translate(340,72)">
+      <circle r="28" fill="url(#norn)" filter="url(#soft)"/>
+      <g class="rev" style="animation-duration:16s">
+        <g fill="none" stroke="#fff2c4" stroke-width="2">
+          <path d="M0 -18 L0 18 M-18 0 L18 0 M-13 -13 L13 13 M-13 13 L13 -13"/>
+        </g>
+        <circle r="6.5" fill="#fff2c4"/>
+      </g>
+    </g>
+    <g transform="translate(460,88)">
+      <circle r="24" fill="url(#norn)" filter="url(#soft)"/>
+      <g class="whorl" style="animation-duration:20s">
+        <g fill="none" stroke="#fff2c4" stroke-width="2">
+          <path d="M0 -14 L0 14 M-14 0 L14 0 M-10 -10 L10 10 M-10 10 L10 -10"/>
+        </g>
+        <circle r="5.5" fill="#fff2c4"/>
+      </g>
+    </g>
+  </g>
+  <!-- threads of wyrd paid down into the warp -->
+  <g class="thrum" fill="none" stroke="#e6c15a" stroke-opacity="0.5" stroke-width="1.4">
+    <path d="M220 112 Q240 122 280 130"/>
+    <path d="M340 100 Q340 116 340 130"/>
+    <path d="M460 112 Q440 122 400 130"/>
+  </g>
+
+  <!-- loom frame -->
+  <g fill="none" stroke="#d9b04a" stroke-opacity="0.75" stroke-width="6" stroke-linecap="round">
+    <path d="M140 130 V468"/><path d="M540 130 V468"/>
+  </g>
+  <g fill="#d9b04a" stroke="#8a5a1a" stroke-opacity="0.6" stroke-width="1.2">
+    <rect x="128" y="130" width="24" height="24" rx="4"/>
+    <rect x="528" y="130" width="24" height="24" rx="4"/>
+  </g>
+  <!-- top beam (holds the warp) -->
+  <rect x="124" y="130" width="432" height="16" rx="6" fill="#c8a24a"/>
+  <!-- cloth beam (bottom roller) -->
+  <rect x="132" y="452" width="416" height="20" rx="10" fill="#c8a24a" stroke="#8a5a1a" stroke-opacity="0.5" stroke-width="1.4"/>
+
+  <!-- warp threads (vertical light) -->
+  <g class="thrum">
+    <g stroke="url(#warp)" stroke-width="2">
+      <line x1="166" y1="146" x2="166" y2="452"/><line x1="195" y1="146" x2="195" y2="452"/>
+      <line x1="224" y1="146" x2="224" y2="452"/><line x1="253" y1="146" x2="253" y2="452"/>
+      <line x1="282" y1="146" x2="282" y2="452"/><line x1="311" y1="146" x2="311" y2="452"/>
+      <line x1="340" y1="146" x2="340" y2="452"/><line x1="369" y1="146" x2="369" y2="452"/>
+      <line x1="398" y1="146" x2="398" y2="452"/><line x1="427" y1="146" x2="427" y2="452"/>
+      <line x1="456" y1="146" x2="456" y2="452"/><line x1="485" y1="146" x2="485" y2="452"/>
+      <line x1="514" y1="146" x2="514" y2="452"/>
+    </g>
+  </g>
+  <!-- the last warp thread catches gold as the free thread departs -->
+  <line x1="514" y1="146" x2="514" y2="316" stroke="#e6c15a" stroke-width="2" opacity="0">
+    <animate attributeName="opacity" values="0;0;0.9;0;0" keyTimes="0;0.43;0.47;0.6;1" dur="10s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- woven cloth of wyrd -->
+  <clipPath id="clothclip"><rect x="150" y="324" width="380" height="128"/></clipPath>
+  <g clip-path="url(#clothclip)">
+    <rect x="150" y="324" width="380" height="128" fill="url(#clothg)"/>
+    <g class="scroll"><rect x="150" y="290" width="380" height="196" fill="url(#runecloth)"/></g>
+    <g stroke="#4a5a8c" stroke-opacity="0.5" stroke-width="1">
+      <line x1="150" y1="346" x2="530" y2="346"/><line x1="150" y1="378" x2="530" y2="378"/>
+      <line x1="150" y1="410" x2="530" y2="410"/><line x1="150" y1="442" x2="530" y2="442"/>
+    </g>
+  </g>
+  <line x1="150" y1="324" x2="530" y2="324" stroke="#8fdcff" stroke-opacity="0.5" stroke-width="1.6"/>
+
+  <!-- the fell line — where the shuttle lays new weft -->
+  <line class="weft" x1="150" y1="316" x2="530" y2="316" stroke="#bfeeff" stroke-width="2.4"/>
+
+  <!-- flying shuttle -->
+  <g class="shut" transform="translate(0,0)">
+    <g transform="translate(340,316)">
+      <path d="M-30 0 Q0 -12 30 0 Q0 12 -30 0 Z" fill="#c8a24a" stroke="#8a5a1a" stroke-opacity="0.6" stroke-width="1.2"/>
+      <circle cx="0" cy="0" r="4" fill="#fff2c4"/>
+      <path d="M-30 0 H30" stroke="#fff2c4" stroke-opacity="0.6" stroke-width="1"/>
+    </g>
+  </g>
+
+  <!-- the free thread: the one the shuttle cannot bind. its path is never drawn. -->
+  <g class="free" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.45;0.5;0.8;0.86;1" dur="10s" repeatCount="indefinite"/>
+    <circle r="10" fill="url(#freeglow)">
+      <animateMotion dur="10s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.45;0.86;1"
+        path="M 532,316 C 622,268 592,190 682,168 C 772,146 832,230 752,246 C 678,260 726,122 814,112 C 874,106 894,152 858,192"/>
+    </circle>
+    <circle r="2.8" fill="#fff2c4">
+      <animateMotion dur="10s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.45;0.86;1"
+        path="M 532,316 C 622,268 592,190 682,168 C 772,146 832,230 752,246 C 678,260 726,122 814,112 C 874,106 894,152 858,192"/>
+    </circle>
+  </g>
+  <!-- the escaped stitch flares at the fell line's edge -->
+  <circle cx="532" cy="316" r="3.4" fill="#e6c15a" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.43;0.47;0.58;1" dur="10s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- the seal: the obstruction ring closes, and one thread goes free -->
+  <g transform="translate(84,504)">
+    <circle r="22" fill="none" stroke="#d9b04a" stroke-opacity="0.25" stroke-width="1.2"/>
+    <g class="rm-anim">
+      <circle r="22" fill="none" stroke="#e6c15a" stroke-width="2" stroke-linecap="round"
+              pathLength="100" stroke-dasharray="100" stroke-dashoffset="24" transform="rotate(-90)">
+        <animate attributeName="stroke-dashoffset" values="24;24;0;0;24" keyTimes="0;0.1;0.45;0.85;1" dur="10s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/>
+      </circle>
+    </g>
+    <circle class="rm-static" r="22" fill="none" stroke="#e6c15a" stroke-width="2"/>
+    <text x="0" y="3.5" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#d9b04a">H¹= 0</text>
+  </g>
+  <text x="118" y="500" font-family="'Courier New',monospace" font-size="10" fill="#7fb0d8" fill-opacity="0.85">the weave completes;</text>
+  <text x="118" y="514" font-family="'Courier New',monospace" font-size="10" fill="#7fb0d8" fill-opacity="0.85">one thread goes free.</text>
+
+  <!-- vignette + frame -->
+  <rect x="16" y="16" width="928" height="568" rx="10" fill="url(#vig)"/>
+  <rect x="16" y="16" width="928" height="568" rx="10" fill="none" stroke="#d9b04a" stroke-opacity="0.35" stroke-width="1"/>
+  <rect x="46" y="20" width="868" height="16" fill="url(#gkey)"/>
+  <rect x="46" y="564" width="868" height="16" fill="url(#gkey)"/>
+
+  <!-- corner medallions: sigils of the rooms beyond -->
+  <g fill="rgba(217,176,74,0.1)" stroke="#d9b04a" stroke-width="1.1">
+    <circle cx="28" cy="28" r="13"/><circle cx="932" cy="28" r="13"/>
+    <circle cx="28" cy="572" r="13"/><circle cx="932" cy="572" r="13"/>
+  </g>
+  <g fill="none" stroke="#e6c15a" stroke-width="1.3" stroke-linecap="round">
+    <!-- ouroboros engine: Ξ -->
+    <path d="M23 24 H33 M21.5 28 H34.5 M23 32 H33"/>
+    <!-- yggdrasil: the world-tree -->
+    <path d="M932 35 V22 M932 27 L927 21 M932 27 L937 21 M932 31 L928 27 M932 31 L936 27"/>
+    <!-- orrery: sun and orbit -->
+    <circle cx="28" cy="572" r="6"/>
+    <!-- huginn &amp; muninn: the raven -->
+    <path d="M926 574 Q929 568 932 571 Q935 568 938 574"/>
+  </g>
+  <g fill="#e6c15a" stroke="none">
+    <circle cx="28" cy="572" r="1.5"/>
+    <circle cx="32.2" cy="567.8" r="1.3"/>
+  </g>
+
+  <!-- title -->
+  <text x="480" y="536" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" letter-spacing="6" fill="#e6c15a">· ᚠᚱᛖᛟ ·</text>
+  <text x="480" y="554" text-anchor="middle" font-family="'Palatino Linotype',Georgia,serif" font-size="13" letter-spacing="7" fill="#d9b04a">FREEDOM IS EMERGENT</text>
+  <!-- engraver's mark -->
+  <text x="906" y="554" text-anchor="end" font-family="'Palatino Linotype',Georgia,serif" font-size="9" letter-spacing="3" fill="#d9b04a" fill-opacity="0.7">S·LAVI</text>
+</svg>
