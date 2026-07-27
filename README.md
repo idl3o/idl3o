@@ -12,3 +12,7 @@
 <p align="center">
   <code>value is not a quantity you measure but an agreement that holds</code>
 </p>
+
+<p align="center">
+  <img src="assets/frontispiece.svg" alt="the Norns' loom — sheaf-gluing engine" width="760">
+</p>
