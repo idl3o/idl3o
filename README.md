@@ -21,8 +21,3 @@
 <p align="center">
   <sub>⟶ <a href="https://github.com/idl3o/idl3o/blob/main/assets/portal.stl">step through the portal</a> — rotate the stone</sub>
 </p>
-
-
-<p align="center">
-  <img src="assets/frontispiece.svg" alt="the Norns' loom — sheaf-gluing engine" width="760">
-</p>
