@@ -17,3 +17,7 @@
     <img src="assets/portal.svg" alt="the portal dolmen — 3,948 facets of triangulated stone, standing open" width="760">
   </a>
 </p>
+
+<p align="center">
+  <sub>⟶ <a href="https://github.com/idl3o/gallery">the gallery</a> — plates, hand-cut</sub>
+</p>
