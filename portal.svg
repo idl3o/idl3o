@@ -1,0 +1,256 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="960" height="520" role="img" aria-label="The portal dolmen — a trilithon of triangulated stone standing open on a starfield, with one gold thread passing through the aperture and away. Click to rotate the stone.">
+  <defs>
+    <radialGradient id="p-void" cx="0.5" cy="0.44" r="0.82">
+      <stop offset="0" stop-color="#161033"/>
+      <stop offset="0.6" stop-color="#0b0820"/>
+      <stop offset="1" stop-color="#05040f"/>
+    </radialGradient>
+    <linearGradient id="p-face" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a5273"/>
+      <stop offset="1" stop-color="#2b3150"/>
+    </linearGradient>
+    <linearGradient id="p-flank" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2c3350"/>
+      <stop offset="1" stop-color="#1a1e35"/>
+    </linearGradient>
+    <linearGradient id="p-cap" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5a6488"/>
+      <stop offset="1" stop-color="#39405f"/>
+    </linearGradient>
+    <linearGradient id="p-sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#bfeeff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#bfeeff" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#bfeeff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="p-thresh" cx="0.5" cy="0.86" r="0.7">
+      <stop offset="0" stop-color="#6fe3c1" stop-opacity="0.34"/>
+      <stop offset="0.55" stop-color="#3a5a8c" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#05040f" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p-freeglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffdf9e" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#e6c15a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p-vig" cx="0.5" cy="0.5" r="0.62">
+      <stop offset="0.6" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.62"/>
+    </radialGradient>
+    <filter id="p-soft" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="p-haze" x="-40%" y="-80%" width="180%" height="260%"><feGaussianBlur stdDeviation="9"/></filter>
+    <pattern id="p-gkey" width="42" height="18" patternUnits="userSpaceOnUse">
+      <path d="M0 3 H42 M6 3 V15 H24 V8 H12 V12" fill="none" stroke="#d9b04a" stroke-opacity="0.5" stroke-width="1.4"/>
+    </pattern>
+
+    <clipPath id="p-door">
+      <path d="M372 184 L562 180 L562 398 L372 404 Z"/>
+    </clipPath>
+    <clipPath id="p-stones">
+      <path d="M236 106 L262 124 L698 116 L672 98 Z
+               M262 124 L698 116 L698 178 L262 186 Z
+               M236 106 L262 124 L262 186 L236 168 Z
+               M300 179 L372 172 L372 406 L300 410 Z
+               M274 166 L300 179 L300 410 L274 398 Z
+               M588 172 L660 179 L660 410 L588 406 Z
+               M562 159 L588 172 L588 406 L562 394 Z"/>
+    </clipPath>
+
+    <style><![CDATA[
+      .p-tw    { animation: p-tw 3.6s ease-in-out infinite; }
+      .p-sweep { animation: p-sweep 7s ease-in-out infinite; }
+      .p-orbit { animation: p-orbit 9s linear infinite; transform-box: view-box; transform-origin: 480px 430px; }
+      .p-breath{ animation: p-breath 4.2s ease-in-out infinite; }
+      .p-drift { animation: p-drift 20s ease-in-out infinite; }
+      .p-rm-static { display: none; }
+      @keyframes p-tw    { 0%,100% { opacity:.18 } 50% { opacity:1 } }
+      @keyframes p-sweep { 0%,100% { transform: translateX(-520px) } 50% { transform: translateX(520px) } }
+      @keyframes p-orbit { to { transform: rotate(360deg) } }
+      @keyframes p-breath{ 0%,100% { opacity:.4 } 50% { opacity:.95 } }
+      @keyframes p-drift { 0%,100% { transform: translateX(-14px) } 50% { transform: translateX(14px) } }
+      @media (prefers-reduced-motion: reduce) {
+        .p-tw,.p-sweep,.p-orbit,.p-breath,.p-drift { animation: none }
+        .p-free,.p-rm-anim { display: none }
+        .p-rm-static { display: inline }
+      }
+    ]]></style>
+  </defs>
+
+  <rect width="960" height="520" fill="#05040f"/>
+  <rect x="16" y="16" width="928" height="488" rx="10" fill="url(#p-void)"/>
+
+  <!-- aurora above the lintel -->
+  <g class="p-drift" opacity="0.20" fill="none" stroke="#6fe3c1" filter="url(#p-haze)">
+    <path d="M60 70 Q 300 44 540 62 T 910 50" stroke-width="20"/>
+    <path d="M100 96 Q 340 80 560 92 T 900 78" stroke-width="9" opacity="0.65"/>
+  </g>
+
+  <!-- outer stars -->
+  <g fill="#dfe8ff">
+    <circle class="p-tw" cx="120" cy="120" r="1.1" style="animation-delay:.4s"/>
+    <circle class="p-tw" cx="176" cy="72"  r="1"   style="animation-delay:1.7s"/>
+    <circle class="p-tw" cx="98"  cy="248" r="1.2" style="animation-delay:2.4s"/>
+    <circle class="p-tw" cx="196" cy="330" r="1"   style="animation-delay:.9s"/>
+    <circle class="p-tw" cx="782" cy="96"  r="1.2" style="animation-delay:1.2s"/>
+    <circle class="p-tw" cx="846" cy="188" r="1"   style="animation-delay:2.9s"/>
+    <circle class="p-tw" cx="900" cy="286" r="1.1" style="animation-delay:.6s"/>
+    <circle class="p-tw" cx="760" cy="330" r="1"   style="animation-delay:2.1s"/>
+    <circle class="p-tw" cx="880" cy="392" r="1.1" style="animation-delay:3.3s"/>
+    <circle class="p-tw" cx="72"  cy="392" r="1"   style="animation-delay:1.5s"/>
+  </g>
+
+  <!-- ===== the aperture: what stands beyond the stone ===== -->
+  <g clip-path="url(#p-door)">
+    <rect x="360" y="170" width="216" height="240" fill="#05040f"/>
+    <rect x="360" y="170" width="216" height="240" fill="url(#p-thresh)"/>
+    <!-- horizon beyond -->
+    <line x1="360" y1="352" x2="576" y2="352" stroke="#6fe3c1" stroke-opacity="0.30" stroke-width="1.2"/>
+    <!-- inner stars -->
+    <g fill="#dfe8ff">
+      <circle class="p-tw" cx="410" cy="228" r="1.1" style="animation-delay:.3s"/>
+      <circle class="p-tw" cx="452" cy="204" r="1"   style="animation-delay:1.9s"/>
+      <circle class="p-tw" cx="506" cy="240" r="1.1" style="animation-delay:1.1s"/>
+      <circle class="p-tw" cx="538" cy="206" r="1"   style="animation-delay:2.7s"/>
+      <circle class="p-tw" cx="396" cy="300" r="1"   style="animation-delay:2.2s"/>
+      <circle class="p-tw" cx="540" cy="300" r="1.1" style="animation-delay:.7s"/>
+      <circle class="p-tw" cx="468" cy="268" r="1"   style="animation-delay:3.1s"/>
+    </g>
+    <!-- the ring that turns -->
+    <g class="p-breath" fill="none" stroke="#8fdcff" stroke-opacity="0.45">
+      <ellipse cx="467" cy="292" rx="66" ry="20" stroke-width="1.2"/>
+      <ellipse cx="467" cy="292" rx="46" ry="52" stroke-width="1"/>
+      <ellipse cx="467" cy="292" rx="24" ry="60" stroke-width="0.9" stroke-opacity="0.3"/>
+    </g>
+    <circle cx="467" cy="292" r="3" fill="#e6c15a" opacity="0.9"/>
+  </g>
+
+  <!-- ===== the dolmen ===== -->
+  <g stroke="#0b0820" stroke-opacity="0.6" stroke-width="1">
+    <!-- left orthostat: receding flank, then face -->
+    <path d="M274 166 L300 179 L300 410 L274 398 Z" fill="url(#p-flank)"/>
+    <path d="M300 179 L372 172 L372 406 L300 410 Z" fill="url(#p-face)"/>
+    <!-- right orthostat: inner flank seen through the door, then face -->
+    <path d="M562 159 L588 172 L588 406 L562 394 Z" fill="url(#p-flank)"/>
+    <path d="M588 172 L660 179 L660 410 L588 406 Z" fill="url(#p-face)"/>
+    <!-- capstone -->
+    <path d="M236 106 L262 124 L262 186 L236 168 Z" fill="url(#p-flank)"/>
+    <path d="M236 106 L672 98 L698 116 L262 124 Z" fill="url(#p-cap)"/>
+    <path d="M262 124 L698 116 L698 178 L262 186 Z" fill="url(#p-face)"/>
+  </g>
+
+  <!-- triangulation: the mesh the stone is actually made of -->
+  <g fill="none" stroke="#8fb4d8" stroke-opacity="0.20" stroke-width="0.9" clip-path="url(#p-stones)">
+    <!-- left upright -->
+    <path d="M300 179 L372 172 M300 218 L372 213 M300 257 L372 253 M300 296 L372 294 M300 335 L372 335 M300 374 L372 375"/>
+    <path d="M300 179 L372 213 M372 172 L300 218 M300 218 L372 253 M372 213 L300 257 M300 257 L372 294 M372 253 L300 296 M300 296 L372 335 M372 294 L300 335 M300 335 L372 375 M372 335 L300 374 M300 374 L372 406 M372 375 L300 410"/>
+    <path d="M274 166 L300 179 M274 224 L300 237 M274 282 L300 295 M274 340 L300 353 M274 166 L300 237 M274 224 L300 295 M274 282 L300 353 M274 340 L300 410"/>
+    <!-- right upright -->
+    <path d="M588 172 L660 179 M588 211 L660 218 M588 250 L660 257 M588 289 L660 296 M588 328 L660 335 M588 367 L660 374"/>
+    <path d="M588 172 L660 218 M660 179 L588 211 M588 211 L660 257 M660 218 L588 250 M588 250 L660 296 M660 257 L588 289 M588 289 L660 335 M660 296 L588 328 M588 328 L660 374 M660 335 L588 367 M588 367 L660 410 M660 374 L588 406"/>
+    <path d="M562 159 L588 172 M562 217 L588 230 M562 275 L588 288 M562 333 L588 346 M562 159 L588 230 M562 217 L588 288 M562 275 L588 346 M562 333 L588 406"/>
+    <!-- capstone face -->
+    <path d="M334 122 L334 184 M406 121 L406 183 M478 119 L478 181 M550 118 L550 180 M622 117 L622 179"/>
+    <path d="M262 124 L334 184 M334 122 L406 183 M406 121 L478 181 M478 119 L550 180 M550 118 L622 179 M622 117 L698 178"/>
+    <path d="M334 184 L406 121 M406 183 L478 119 M478 181 L550 118 M550 180 L622 117 M622 179 L698 116 M262 186 L334 122"/>
+    <!-- capstone top -->
+    <path d="M336 105 L310 100 M408 104 L382 99 M480 103 L454 98 M552 102 L526 97 M624 100 L598 96"/>
+    <path d="M236 106 L310 100 M262 124 L336 105 M334 122 L408 104 M406 121 L480 103 M478 119 L552 102 M550 118 L624 100 M622 117 L698 116"/>
+  </g>
+
+  <!-- hewn edges -->
+  <g fill="none" stroke="#a8c4e0" stroke-opacity="0.30" stroke-width="1.2" stroke-linejoin="round">
+    <path d="M236 106 L672 98 L698 116 L698 178 L262 186 L236 168 Z"/>
+    <path d="M262 124 L698 116"/>
+    <path d="M274 166 L300 179 L372 172 L372 406 L300 410 L274 398 Z"/>
+    <path d="M562 159 L588 172 L660 179 L660 410 L588 406 L562 394 Z"/>
+    <path d="M300 179 L300 410 M588 172 L588 406"/>
+  </g>
+
+  <!-- the light that passes over the stone -->
+  <g clip-path="url(#p-stones)">
+    <g class="p-sweep"><rect x="140" y="80" width="180" height="360" fill="url(#p-sweep)"/></g>
+  </g>
+
+  <!-- engraved on the lintel: three rings, none of them holding the others -->
+  <g transform="translate(480,150)" fill="none" stroke="#d9b04a" stroke-opacity="0.66" stroke-width="1.6">
+    <circle cx="0" cy="-7" r="12"/>
+    <circle cx="-10.4" cy="6" r="12"/>
+    <circle cx="10.4" cy="6" r="12"/>
+    <path d="M-150 0 H-40 M40 0 H150" stroke-opacity="0.28" stroke-width="1.1"/>
+    <path d="M-176 0 L-166 -5 L-166 5 Z" fill="#d9b04a" fill-opacity="0.4" stroke="none"/>
+    <path d="M176 0 L166 -5 L166 5 Z" fill="#d9b04a" fill-opacity="0.4" stroke="none"/>
+  </g>
+
+  <!-- ground -->
+  <ellipse cx="336" cy="412" rx="70" ry="9" fill="#05040f" opacity="0.7"/>
+  <ellipse cx="624" cy="412" rx="70" ry="9" fill="#05040f" opacity="0.7"/>
+  <line x1="150" y1="412" x2="810" y2="412" stroke="#3a5a8c" stroke-opacity="0.35" stroke-width="1"/>
+
+  <!-- the thread that goes through and does not come back -->
+  <g class="p-free">
+    <path d="M467 330 C 480 268 522 250 546 214 C 582 166 642 146 702 122 C 752 102 802 90 858 82"
+          fill="none" stroke="#e6c15a" stroke-opacity="0.28" stroke-width="1.2"/>
+    <circle r="9" fill="url(#p-freeglow)">
+      <animateMotion dur="9s" repeatCount="indefinite" calcMode="linear"
+        path="M 467,330 C 480,268 522,250 546,214 C 582,166 642,146 702,122 C 752,102 802,90 858,82"/>
+    </circle>
+    <circle r="2.4" fill="#fff2c4">
+      <animateMotion dur="9s" repeatCount="indefinite" calcMode="linear"
+        path="M 467,330 C 480,268 522,250 546,214 C 582,166 642,146 702,122 C 752,102 802,90 858,82"/>
+    </circle>
+  </g>
+
+  <!-- ===== caption band ===== -->
+  <text x="64" y="430" font-family="'Courier New',monospace" font-size="10" fill="#7fb0d8">portal.stl</text>
+  <text x="64" y="444" font-family="'Courier New',monospace" font-size="10" fill="#7fb0d8" fill-opacity="0.72">3,948 facets · binary STL · 193 KB</text>
+
+  <!-- the affordance: this turns -->
+  <g>
+    <g class="p-orbit" fill="none" stroke="#e6c15a" stroke-opacity="0.85" stroke-width="1.4" stroke-linecap="round">
+      <path d="M480 416 A 14 14 0 1 1 466 430"/>
+      <path d="M461 436 L466 430 L471 436"/>
+    </g>
+    <g class="p-rm-static" fill="none" stroke="#e6c15a" stroke-opacity="0.85" stroke-width="1.4" stroke-linecap="round">
+      <path d="M480 416 A 14 14 0 1 1 466 430"/>
+      <path d="M461 436 L466 430 L471 436"/>
+    </g>
+    <circle cx="480" cy="430" r="2.4" fill="#e6c15a"/>
+    <text x="480" y="458" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" letter-spacing="3" fill="#d9b04a">ROTATE THE STONE</text>
+  </g>
+
+  <!-- seal -->
+  <g transform="translate(886,432)">
+    <circle r="20" fill="none" stroke="#d9b04a" stroke-opacity="0.25" stroke-width="1.2"/>
+    <g class="p-rm-anim">
+      <circle r="20" fill="none" stroke="#e6c15a" stroke-width="1.8" stroke-linecap="round"
+              pathLength="100" stroke-dasharray="100" stroke-dashoffset="22" transform="rotate(-90)">
+        <animate attributeName="stroke-dashoffset" values="22;22;0;0;22" keyTimes="0;0.12;0.5;0.86;1" dur="9s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/>
+      </circle>
+    </g>
+    <circle class="p-rm-static" r="20" fill="none" stroke="#e6c15a" stroke-width="1.8"/>
+    <text x="0" y="3.5" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#d9b04a">H¹= 0</text>
+  </g>
+
+  <!-- vignette + frame -->
+  <rect x="16" y="16" width="928" height="488" rx="10" fill="url(#p-vig)"/>
+  <rect x="16" y="16" width="928" height="488" rx="10" fill="none" stroke="#d9b04a" stroke-opacity="0.35" stroke-width="1"/>
+  <rect x="46" y="20" width="868" height="16" fill="url(#p-gkey)"/>
+  <rect x="46" y="484" width="868" height="16" fill="url(#p-gkey)"/>
+
+  <!-- corner medallions -->
+  <g fill="rgba(217,176,74,0.1)" stroke="#d9b04a" stroke-width="1.1">
+    <circle cx="28" cy="28" r="13"/><circle cx="932" cy="28" r="13"/>
+    <circle cx="28" cy="492" r="13"/><circle cx="932" cy="492" r="13"/>
+  </g>
+  <g fill="none" stroke="#e6c15a" stroke-width="1.3" stroke-linecap="round">
+    <path d="M23 24 H33 M21.5 28 H34.5 M23 32 H33"/>
+    <path d="M932 35 V22 M932 27 L927 21 M932 27 L937 21 M932 31 L928 27 M932 31 L936 27"/>
+    <circle cx="28" cy="492" r="6"/>
+    <path d="M926 494 Q929 488 932 491 Q935 488 938 494"/>
+  </g>
+  <g fill="#e6c15a" stroke="none">
+    <circle cx="28" cy="492" r="1.5"/>
+    <circle cx="32.2" cy="487.8" r="1.3"/>
+  </g>
+
+  <text x="480" y="474" text-anchor="middle" font-family="'Palatino Linotype',Georgia,serif" font-size="12" letter-spacing="7" fill="#d9b04a">THE PORTAL DOLMEN</text>
+  <text x="906" y="474" text-anchor="end" font-family="'Palatino Linotype',Georgia,serif" font-size="9" letter-spacing="3" fill="#d9b04a" fill-opacity="0.7">S·LAVI</text>
+</svg>
