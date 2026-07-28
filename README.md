@@ -17,11 +17,3 @@
     <img src="assets/portal.svg" alt="the portal dolmen — 3,948 facets of triangulated stone, standing open" width="760">
   </a>
 </p>
-
-<p align="center">
-CV — [idl3o.github.io/cv](https://idl3o.github.io/cv/)
-X — [@modsias](https://x.com/modsias)
-Linktree — [linktr.ee/modsias](https://linktr.ee/modsias)
-LinkedIn — [s-lavi](https://www.linkedin.com/in/s-lavi-a13669363/)
-[sjlavieth@gmail.com](mailto:sjlavieth@gmail.com)
-</p>
