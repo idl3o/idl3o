@@ -17,7 +17,3 @@
     <img src="assets/portal.svg" alt="the portal dolmen — 3,948 facets of triangulated stone, standing open" width="760">
   </a>
 </p>
-
-<p align="center">
-  <sub>⟶ <a href="https://github.com/idl3o/idl3o/blob/main/assets/portal.stl">step through the portal</a> — rotate the stone</sub>
-</p>
