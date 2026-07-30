@@ -11,17 +11,3 @@
 <p align="center">
   <img src="assets/frontispiece.svg" alt="the Norns' loom — sheaf-gluing engine" width="760">
 </p>
-
-<p align="center">
-  <a href="https://github.com/idl3o/idl3o/blob/main/assets/portal.stl">
-    <img src="assets/portal.svg" alt="the portal dolmen — 3,948 facets of triangulated stone, standing open" width="760">
-  </a>
-</p>
-
-<p align="center">
-  <sub>⟶ <a href="https:/idl3o.github.io/gallery">the gallery</a> — plates, hand-cut</sub>
-</p>
-
-<p align="center">
-  <sub>⟶ <a href="https://idl3o.github.io/derivation-of-value">an Anthology</a> — working drafts</sub>
-</p>
