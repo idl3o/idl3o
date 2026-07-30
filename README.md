@@ -23,5 +23,5 @@
 </p>
 
 <p align="center">
-  <sub>⟶ <a href="(https://idl3o.github.io/derivation-of-value/)">an Anthology</a> — working drafts</sub>
+  <sub>⟶ <a href="https://idl3o.github.io/derivation-of-value">an Anthology</a> — working drafts</sub>
 </p>
