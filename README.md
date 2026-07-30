@@ -21,3 +21,7 @@
 <p align="center">
   <sub>⟶ <a href="https://github.com/idl3o/gallery">the gallery</a> — plates, hand-cut</sub>
 </p>
+
+<p align="center">
+  <sub>⟶ <a href="(https://idl3o.github.io/derivation-of-value/)">an Anthology</a> — working drafts</sub>
+</p>
