@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-  <sub>⟶ <a href="https://github.com/idl3o/gallery">the gallery</a> — plates, hand-cut</sub>
+  <sub>⟶ <a href="idl3o.github.io/gallery/">the gallery</a> — plates, hand-cut</sub>
 </p>
 
 <p align="center">
