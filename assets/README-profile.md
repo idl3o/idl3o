@@ -1,0 +1,279 @@
+<h1 align="center">S. Lavi · <code>idl3o</code></h1>
+
+<p align="center">
+  <em>🦁 idling</em> · os web dev · Kernow · UTC-12
+</p>
+
+<p align="center">
+  <code>value is not a quantity you measure but an agreement that holds</code>
+</p>
+
+<p align="center">
+  <img src="assets/frontispiece.svg" alt="the Norns' loom — sheaf-gluing engine" width="760">
+</p>
+
+---
+
+### Portal
+
+Trilithon. Two orthostats, one capstone. Thirty-six facets, no smoothing — the faces are
+the form. Drag to orbit.
+
+```stl
+solid portal
+facet normal -0.039 -0.085 -0.996
+outer loop
+vertex -0.917 -0.193 0.037
+vertex -0.947 0.201 0.005
+vertex -0.440 0.155 -0.011
+endloop
+endfacet
+facet normal -0.040 -0.084 -0.996
+outer loop
+vertex -0.917 -0.193 0.037
+vertex -0.440 0.155 -0.011
+vertex -0.476 -0.199 0.020
+endloop
+endfacet
+facet normal -0.121 0.271 0.955
+outer loop
+vertex -1.013 -0.166 1.251
+vertex -0.579 -0.147 1.300
+vertex -0.581 0.203 1.201
+endloop
+endfacet
+facet normal -0.020 0.157 0.987
+outer loop
+vertex -1.013 -0.166 1.251
+vertex -0.581 0.203 1.201
+vertex -0.951 0.213 1.192
+endloop
+endfacet
+facet normal -0.011 -0.999 0.040
+outer loop
+vertex -0.917 -0.193 0.037
+vertex -0.476 -0.199 0.020
+vertex -0.579 -0.147 1.300
+endloop
+endfacet
+facet normal 0.041 -0.999 0.026
+outer loop
+vertex -0.917 -0.193 0.037
+vertex -0.579 -0.147 1.300
+vertex -1.013 -0.166 1.251
+endloop
+endfacet
+facet normal 0.026 1.000 -0.010
+outer loop
+vertex -0.947 0.201 0.005
+vertex -0.951 0.213 1.192
+vertex -0.581 0.203 1.201
+endloop
+endfacet
+facet normal 0.089 0.996 -0.029
+outer loop
+vertex -0.947 0.201 0.005
+vertex -0.581 0.203 1.201
+vertex -0.440 0.155 -0.011
+endloop
+endfacet
+facet normal -0.986 0.149 -0.081
+outer loop
+vertex -0.917 -0.193 0.037
+vertex -1.013 -0.166 1.251
+vertex -0.951 0.213 1.192
+endloop
+endfacet
+facet normal -0.997 -0.075 -0.003
+outer loop
+vertex -0.917 -0.193 0.037
+vertex -0.951 0.213 1.192
+vertex -0.947 0.201 0.005
+endloop
+endfacet
+facet normal 0.989 -0.090 0.119
+outer loop
+vertex -0.476 -0.199 0.020
+vertex -0.440 0.155 -0.011
+vertex -0.581 0.203 1.201
+endloop
+endfacet
+facet normal 0.996 0.031 0.078
+outer loop
+vertex -0.476 -0.199 0.020
+vertex -0.581 0.203 1.201
+vertex -0.579 -0.147 1.300
+endloop
+endfacet
+facet normal 0.037 -0.251 -0.967
+outer loop
+vertex 0.535 -0.141 0.052
+vertex 0.491 0.149 -0.025
+vertex 0.902 0.159 -0.013
+endloop
+endfacet
+facet normal -0.198 0.033 -0.980
+outer loop
+vertex 0.535 -0.141 0.052
+vertex 0.902 0.159 -0.013
+vertex 0.862 -0.180 -0.016
+endloop
+endfacet
+facet normal 0.026 0.030 0.999
+outer loop
+vertex 0.480 -0.236 1.191
+vertex 0.943 -0.189 1.177
+vertex 0.962 0.207 1.165
+endloop
+endfacet
+facet normal 0.080 -0.029 0.996
+outer loop
+vertex 0.480 -0.236 1.191
+vertex 0.962 0.207 1.165
+vertex 0.517 0.141 1.199
+endloop
+endfacet
+facet normal -0.119 -0.993 0.001
+outer loop
+vertex 0.535 -0.141 0.052
+vertex 0.862 -0.180 -0.016
+vertex 0.943 -0.189 1.177
+endloop
+endfacet
+facet normal 0.098 -0.992 -0.078
+outer loop
+vertex 0.535 -0.141 0.052
+vertex 0.943 -0.189 1.177
+vertex 0.480 -0.236 1.191
+endloop
+endfacet
+facet normal -0.146 0.989 0.009
+outer loop
+vertex 0.491 0.149 -0.025
+vertex 0.517 0.141 1.199
+vertex 0.962 0.207 1.165
+endloop
+endfacet
+facet normal -0.023 0.999 -0.040
+outer loop
+vertex 0.491 0.149 -0.025
+vertex 0.962 0.207 1.165
+vertex 0.902 0.159 -0.013
+endloop
+endfacet
+facet normal -0.994 0.098 -0.040
+outer loop
+vertex 0.535 -0.141 0.052
+vertex 0.480 -0.236 1.191
+vertex 0.517 0.141 1.199
+endloop
+endfacet
+facet normal -0.990 -0.143 0.019
+outer loop
+vertex 0.535 -0.141 0.052
+vertex 0.517 0.141 1.199
+vertex 0.491 0.149 -0.025
+endloop
+endfacet
+facet normal 0.992 -0.116 -0.046
+outer loop
+vertex 0.862 -0.180 -0.016
+vertex 0.902 0.159 -0.013
+vertex 0.962 0.207 1.165
+endloop
+endfacet
+facet normal 0.996 -0.049 -0.068
+outer loop
+vertex 0.862 -0.180 -0.016
+vertex 0.962 0.207 1.165
+vertex 0.943 -0.189 1.177
+endloop
+endfacet
+facet normal 0.081 -0.014 -0.997
+outer loop
+vertex -1.116 -0.355 1.137
+vertex -1.121 0.296 1.127
+vertex 1.115 0.330 1.308
+endloop
+endfacet
+facet normal 0.069 0.025 -0.997
+outer loop
+vertex -1.116 -0.355 1.137
+vertex 1.115 0.330 1.308
+vertex 1.196 -0.273 1.298
+endloop
+endfacet
+facet normal -0.087 0.050 0.995
+outer loop
+vertex -1.182 -0.323 1.449
+vertex 1.129 -0.259 1.648
+vertex 1.112 0.295 1.618
+endloop
+endfacet
+facet normal -0.108 0.133 0.985
+outer loop
+vertex -1.182 -0.323 1.449
+vertex 1.112 0.295 1.618
+vertex -1.121 0.265 1.377
+endloop
+endfacet
+facet normal 0.032 -0.998 0.045
+outer loop
+vertex -1.116 -0.355 1.137
+vertex 1.196 -0.273 1.298
+vertex 1.129 -0.259 1.648
+endloop
+endfacet
+facet normal 0.019 -0.994 0.104
+outer loop
+vertex -1.116 -0.355 1.137
+vertex 1.129 -0.259 1.648
+vertex -1.182 -0.323 1.449
+endloop
+endfacet
+facet normal -0.026 0.992 0.122
+outer loop
+vertex -1.121 0.296 1.127
+vertex -1.121 0.265 1.377
+vertex 1.112 0.295 1.618
+endloop
+endfacet
+facet normal -0.024 0.993 0.113
+outer loop
+vertex -1.121 0.296 1.127
+vertex 1.112 0.295 1.618
+vertex 1.115 0.330 1.308
+endloop
+endfacet
+facet normal -0.974 0.075 -0.215
+outer loop
+vertex -1.116 -0.355 1.137
+vertex -1.182 -0.323 1.449
+vertex -1.121 0.265 1.377
+endloop
+endfacet
+facet normal -1.000 -0.009 0
+outer loop
+vertex -1.116 -0.355 1.137
+vertex -1.121 0.265 1.377
+vertex -1.121 0.296 1.127
+endloop
+endfacet
+facet normal 0.991 0.132 0.023
+outer loop
+vertex 1.196 -0.273 1.298
+vertex 1.115 0.330 1.308
+vertex 1.112 0.295 1.618
+endloop
+endfacet
+facet normal 0.982 0.040 0.185
+outer loop
+vertex 1.196 -0.273 1.298
+vertex 1.112 0.295 1.618
+vertex 1.129 -0.259 1.648
+endloop
+endfacet
+endsolid portal
+```
+
+The full-resolution solid is [`assets/portal.stl`](assets/portal.stl).
