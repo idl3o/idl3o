@@ -13,5 +13,5 @@
 </p>
 
 <p align="center">
-[○△▢](https://github.com/idl3o/idl3o/blob/main/assets/triplet.stl)
+  <[Portal ⟳](https://github.com/idl3o/idl3o/blob/main/assets/portal.stl)>
 </p>
