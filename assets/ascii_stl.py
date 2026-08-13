@@ -121,45 +121,13 @@ def emit(name, facets):
     return "\n".join([f"solid {name}"] + facets + [f"endsolid {name}"]) + "\n"
 
 
-# --- polyhedral targets: flat-faced solids where low poly is the form, not a loss ---
-
-def _hexahedron(cx, cy, cz, sx, sy, sz, jitter, seed, tilt=0.0, out=None):
-    """Irregular box: 8 corners, per-corner displacement, 12 facets."""
-    import random
-    r = random.Random(seed)
-    corners = []
-    for k in range(8):
-        i, j, l = (k & 1), (k >> 1) & 1, (k >> 2) & 1
-        x = (i - 0.5) * sx
-        y = (j - 0.5) * sy
-        z = (l - 0.5) * sz
-        x, z = (x * math.cos(tilt) - z * math.sin(tilt),
-                x * math.sin(tilt) + z * math.cos(tilt))
-        corners.append((cx + x + r.uniform(-jitter, jitter),
-                        cy + y + r.uniform(-jitter, jitter),
-                        cz + z + r.uniform(-jitter, jitter)))
-    quads = [(0,2,3,1),(4,5,7,6),(0,1,5,4),(2,6,7,3),(0,4,6,2),(1,3,7,5)]
-    for a, b, c, d in quads:
-        facet(corners[a], corners[b], corners[c], out)
-        facet(corners[a], corners[c], corners[d], out)
-
-
-def portal(jitter=0.055):
-    """Portal dolmen — two orthostats and a capstone. Trilithon."""
-    out = []
-    _hexahedron(-0.72, 0, 0.62, 0.44, 0.40, 1.24, jitter, 11, tilt=0.045, out=out)
-    _hexahedron( 0.72, 0, 0.58, 0.42, 0.38, 1.16, jitter, 23, tilt=-0.038, out=out)
-    _hexahedron( 0.00, 0, 1.36, 2.30, 0.62, 0.30, jitter, 37, tilt=0.075, out=out)
-    return out
-
-
 if __name__ == "__main__":
     which = sys.argv[1] if len(sys.argv) > 1 else "borromean"
     kw = {}
     for arg in sys.argv[2:]:
         k, v = arg.split("=")
         kw[k] = int(v) if v.isdigit() else float(v)
-    facets = {"borromean": borromean, "trefoil": trefoil, "portal": portal}[which](**kw)
+    facets = {"borromean": borromean, "trefoil": trefoil}[which](**kw)
     body = emit(which, facets)
     sys.stdout.write(body)
     n = len(facets) // 7
