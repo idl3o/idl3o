@@ -11,3 +11,7 @@
 <p align="center">
   <img src="assets/frontispiece.svg" alt="the Norns' loom — sheaf-gluing engine" width="760">
 </p>
+
+<p align="center">
+[Portal](assets/portal-lowpoly.stl)
+</p>
