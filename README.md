@@ -13,5 +13,8 @@
 </p>
 
 <p align="center">
-  [Portal ⟳](https://github.com/idl3o/idl3o/blob/main/assets/portal.stl)
+  <a href="https://github.com/idl3o/idl3o/blob/main/assets/portal.stl">
+    <strong>Portal</strong>
+  </a><br>
+  <sub>a trilithon in 3,948 facets · drag to orbit</sub>
 </p>
