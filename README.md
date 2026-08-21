@@ -20,5 +20,6 @@
 </p>
 
 <p align="center">
-**[gallery](https://github.com/idl3o/gallery)** — animated SVG plates: Norse, alchemical, celestial. Hand-cut in code.
+  <strong><a href="https://github.com/idl3o/gallery">gallery</a></strong><br/>
+  <sub>animated SVG plates: Norse, alchemical, celestial. Hand-cut in code.</sub>
 </p>
