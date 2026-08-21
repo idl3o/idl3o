@@ -12,11 +12,13 @@
   <img src="assets/frontispiece.svg" alt="the Norns' loom — sheaf-gluing engine" width="760">
 </p>
 
-**[gallery](https://github.com/idl3o/gallery)** — animated SVG plates: Norse, alchemical, celestial. Hand-cut in code.
-
 <p align="center">
   <a href="https://github.com/idl3o/idl3o/blob/main/assets/portal.stl">
     <strong>Portal</strong>
   </a><br>
   <sub>a trilithon in 3,948 facets · drag to orbit</sub>
+</p>
+
+<p align="center">
+**[gallery](https://github.com/idl3o/gallery)** — animated SVG plates: Norse, alchemical, celestial. Hand-cut in code.
 </p>
