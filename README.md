@@ -12,6 +12,8 @@
   <img src="assets/frontispiece.svg" alt="the Norns' loom — sheaf-gluing engine" width="760">
 </p>
 
+**[gallery](https://github.com/idl3o/gallery)** — animated SVG plates: Norse, alchemical, celestial. Hand-cut in code.
+
 <p align="center">
   <a href="https://github.com/idl3o/idl3o/blob/main/assets/portal.stl">
     <strong>Portal</strong>
