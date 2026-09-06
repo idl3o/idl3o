@@ -13,10 +13,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/idl3o/idl3o/blob/main/assets/portal.stl">
-    <strong>Portal</strong>
+  <a href="https://idl3o.github.io/derivation-of-value">
+    <strong>Deriving value</strong>
   </a><br>
-  <sub>a trilithon in 3,948 facets · drag to orbit</sub>
+  <sub>a anthology papers on modern currency</sub>
 </p>
 
 <p align="center">
