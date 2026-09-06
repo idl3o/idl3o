@@ -13,5 +13,5 @@
 </p>
 
 <p align="center">
-  <sub><a href="https://idl3o.github.io/derivation-of-value">D-of-V</a> · <a href="https://esoterica.vercel.app">esoterica</a> · <a href="https://github.com/idl3o/gallery">gallery</a></sub>
+  <sub><a href="https://idl3o.github.io/derivation-of-value">D-of-V</a> · <a href="https://esoterica.vercel.app">esoterica</a> · <a href="https://idl3o.github.io/gallery">gallery</a></sub>
 </p>
