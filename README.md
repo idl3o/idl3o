@@ -14,13 +14,13 @@
 
 <p align="center">
   <a href="https://idl3o.github.io/derivation-of-value">
-    <strong>Deriving value</strong>
+    <strong>Deriving value from measurement</strong>
   </a><br>
   <sub>anthology papers on modern currency</sub>
 </p>
 
 <p align="center">
-  <strong><a href="https://esoterica.vercel.app">ESOTERICA</a></strong><br/>>
+  <strong><a href="https://esoterica.vercel.app">ESOTERICA</a></strong><br/>
   <sub>a cultivated garden of consciousness tech</sub>
 </p>
 
