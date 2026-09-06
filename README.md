@@ -23,3 +23,9 @@
   <strong><a href="https://github.com/idl3o/gallery">gallery</a></strong><br/>
   <sub>animated SVG plates: Norse, alchemical, celestial. Hand-cut in code.</sub>
 </p>
+
+
+<p align="center">
+  <strong><a href="(https://esoterica.vercel.app”>ESOTERICA</a></strong><br/>
+  <sub>a cultivated garden of consciousness tech</sub>
+</p>
