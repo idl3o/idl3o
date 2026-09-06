@@ -13,21 +13,9 @@
 </p>
 
 <p align="center">
-  <a href="https://idl3o.github.io/derivation-of-value">
-    <strong>D-of-V</strong>
-  </a><br>
-  <sub>anthology papers on modern currency</sub>
+  <img src="assets/profile.svg" alt="idl3o — a sphere on low-relief terrain; technical, mathematical, contemplative; H¹ = 0" width="760">
 </p>
 
 <p align="center">
-  <strong><a href="https://esoterica.vercel.app">ESOTERICA</a></strong><br/>
-  <sub>a cultivated garden of consciousness tech</sub>
+  <sub><a href="https://idl3o.github.io/derivation-of-value">D-of-V</a> · <a href="https://esoterica.vercel.app">esoterica</a> · <a href="https://github.com/idl3o/gallery">gallery</a></sub>
 </p>
-
-
-<p align="center">
-  <strong><a href="https://github.com/idl3o/gallery">gallery</a></strong><br/>
-  <sub>animated SVG plates: Norse, alchemical, celestial. Hand-cut in code.</sub>
-</p>
-
-
