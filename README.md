@@ -14,7 +14,7 @@
 
 <p align="center">
   <a href="https://idl3o.github.io/derivation-of-value">
-    <strong>Deriving value from measurement</strong>
+    <strong>D-of-V</strong>
   </a><br>
   <sub>anthology papers on modern currency</sub>
 </p>
