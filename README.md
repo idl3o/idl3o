@@ -15,3 +15,7 @@
 <p align="center">
   <sub><a href="https://idl3o.github.io/derivation-of-value">D-of-V</a> · <a href="https://esoterica.vercel.app">esoterica</a> · <a href="https://idl3o.github.io/gallery">gallery</a></sub>
 </p>
+
+---
+
+[![Substack](https://img.shields.io/badge/Substack-%23FF6719.svg?style=for-the-badge&logo=substack&logoColor=white)](https://substack.com/@idl3o)
