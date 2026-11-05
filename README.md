@@ -1,7 +1,7 @@
 <h1 align="center">S. Lavi · <code>idl3o</code></h1>
 
 <p align="center">
-  <em>🦁 idling</em> · os web dev · Kernow · UTC-12
+  <em>🦁 idling</em> · os web dev · Kernow · UTC-0
 </p>
 
 <p align="center">
